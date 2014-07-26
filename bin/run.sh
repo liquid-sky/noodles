@@ -1,3 +1,4 @@
 #!/bin/bash
-cd $DATA_DIR
-exec "/usr/bin/runsvdir" "-P" "npm start"
+
+/opt/bootstrap/bootstrap.sh
+exec "/usr/bin/runsvdir" "-P" "/etc/service"
