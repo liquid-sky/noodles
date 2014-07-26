@@ -1,0 +1,3 @@
+[submodule "data/webapp"]
+	path = data/webapp
+	url = git://github.com/liquid-sky/webapp.git
