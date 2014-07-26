@@ -3,7 +3,6 @@ FROM dockerfile/nodejs
 ENV DATA_DIR /data/webapp
 
 ADD bootstrap/ /opt/bootstrap
-ADD data/webapp /data/
 
 RUN apt-get update \
  && apt-get -y upgrade \
